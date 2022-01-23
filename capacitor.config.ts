@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'tagesschau-wirtschaft-wrapper',
+  appId: 'com.tagesschau.wirtschaft',
+  appName: 'Tagesschau Wirtschaft',
   webDir: 'www',
   bundledWebRuntime: false,
   server: {
