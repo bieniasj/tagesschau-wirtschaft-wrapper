@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "author": "Jens Bienias",
   "homepage": "https://tagesschau.de/",
-  "scripts": {},
+  "scripts": {
+    "generate:resources:android": "npx cordova-res android --icon-background-source '#253044' --skip-config"
+  },
   "private": true,
   "dependencies": {
     "@capacitor/android": "^3.3.3",
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "3.3.2",
+    "cordova-res": "^0.15.4",
     "typescript": "^4.5.3"
   },
   "description": "A native wrapper around the german Tagesschau website"
